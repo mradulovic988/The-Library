@@ -1,0 +1,222 @@
+/* -------- TIPOGRAFIJA -------- */
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+.cena {
+    text-align: right;
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: #650000;
+    font-family: 'Lato', sans-serif;
+}
+
+.onama {
+    font-size: 2.8rem;
+    color: #575757;
+    text-align-last: center;
+}
+
+.autorskaPrava {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+
+    
+}
+
+.autorskaParagraf {
+    margin-left: 320px;
+    font-size: 2.5rem;
+}
+
+.usloviKoriscenja {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin: 10px;
+    margin-left: 250px;
+}
+
+.uslovParagraf {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.footerParagraf {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #fff;
+}
+
+.copyrightParagraf {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #656565;
+    font-size: 17px;
+    float: right;
+    box-sizing: inherit;
+    margin-top: 15px;
+}
+
+.copyrightParagraf:hover {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #f2f2f2;
+    font-size: 17px;
+    float: right;
+    box-sizing: inherit;
+    margin-top: 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+.saldo {
+    text-align: left;
+    text-transform: uppercase;
+    color: #909090;
+}
+
+.err {
+    margin-top: 7px;
+    margin-left: 23px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: rgb(123, 34, 34);
+}
+
+/* -------------- TABELA ------------ */
+
+.tabela {
+    color: #909090;
+}
+
+/* -------------- NAVBAR ------------- */
+.vesti {
+    color: #838383!important;
+    font-weight: 400!important;
+}
+
+.vesti:hover {
+    color: #262626!important;
+    transition: all 1s ease-in-out!important;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 15px;
+    
+}
+
+.navigacija {
+    text-align: right;
+}
+
+.main-nav .logo {
+    /*
+    width: 200px;
+    margin-right: 170px;
+*/
+    
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px;
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover, 
+.main-nav li a:active {
+    border-bottom: 2px solid #c7c7c7;
+}
+
+/* -------------- SEKCIJE ---------- */
+
+.sekcijaPrva {
+    background-color: #eaeaea;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sekcijaDruga {
+    background-color: #e2e2e2;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+
+
+footer {
+    background-color: #242424;
+}
+
+
+/* ------------- BUTTONS ----------- */
+
+.btn-boja {
+    background-color: #464a4d;
+    border-color: #32383e;
+    transition: all 1s ease-in-out;
+}
+
+.btn-boja:hover {
+    background-color: #212529;
+    border-color: #212529;
+    transition: all 1s ease-in-out;
+}
+
+/* ------------ ICONS ------------ */
+
+.iconSize {
+    font-size: 35px;
+    float: left;
+}
+
+.ion-social-facebook {
+    margin: 10px;
+    color: #656565;
+}
+.ion-social-instagram {
+    margin: 10px;
+    color: #656565;
+}
+.ion-social-github {
+    margin: 10px;
+    color: #656565;
+}
+
+.ion-social-facebook:hover,
+.ion-social-instagram:hover,
+.ion-social-github:hover {
+    margin: 10px;
+    color: #f2f2f2;
+    transition: all 0.5s ease-in-out;
+}
+/* ------------ PODESAVANJA --------- */
+
+
