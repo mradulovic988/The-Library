@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+    <title>Markova Knjižara</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="css/icons/fontawesome/css/style.css">
+
+
+    <link rel="stylesheet" href="css/icons/fontawesome/css/style.css">
+    <link rel="stylesheet" href="css/icons/style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="index.html"><img src="img/logowhite.png" alt="Logo" class="logo"></a>
+                    <ul class="main-nav">
+                        <li><a href="index.html" class="vesti">Početna strana</a></li>
+                        <li><a href="newbook.html" class="vesti">Dodaj Novu Knjigu</a></li>
+                        <li><a href="autorska.html" class="vesti">Autorska Prava</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="sekcijaPrva">
+        <div class="container">
+
+            <div class="col-md-12">
+                <h1 style="text-align: center">Pretraživanje Kataloga</h1><br>
+                <form action="results.php" method="post" class="table table-hover" style="text-align: center"><br>
+                    <label>
+                            <p><strong>Odaberite tip pretraživanja:</strong><br>
+                                    <select name="searchtype">
+                                    <option value="Title">Naziv Knjige</option>
+                                    <option value="Author">Naziv Autora</option>
+                                    <option value="ISBN">ISBN</option>
+                                </select>
+                            </p>
+                        </label>
+                    <p><label><strong>Ključna reč:</strong><br />
+                            <input name="searchterm" type="text" size="40"></label></p>
+                    <p><input type="submit" name="submit" value="Pretraži" class="btn btn-boja tabela"></p>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="sekcijaDruga">
+        <div class="container">
+            <div class="col-md-12">
+                <h1 style="text-align: center">Pogledajte naše knjige</h1><br>
+                <form action="results_all.php" method="post" class="table table-hover" style="text-align: center">
+                    <input type="submit" name="submit" value="Pretraži" class="btn btn-boja tabela">
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <form class="form-inline social-buttons iconSize">
+                        <a href="https://www.facebook.com/upss1988"><i class="fa fa-facebook"></i></a>
+
+                        <a href="https://www.instagram.com/betmen_licno"><i class="fa fa-instagram"></i></a>
+                        <a href="http://plus.google.com/u/0/108637013978671242467"><i class="fa fa-google-plus"></i></a>
+                    </form>
+                </div>
+
+
+                <div class="col-md-6">
+                    <span class="copyrightParagraf">Copyright &copy; 2017 All Rights Reserved Marko Radulović.</span>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Dodaj novu knjigu</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="css/icons/fontawesome/css/style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="index.html"><img src="img/logowhite.png" alt="Logo" class="logo"></a>
+                    <ul class="main-nav">
+                        <li><a href="index.html" class="vesti">Početna strana</a></li>
+                        <li><a href="newbook.html" class="vesti">Dodaj Novu Knjigu</a></li>
+                        <li><a href="autorska.html" class="vesti">Autorska Prava</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="sekcijaPrva">
+        <div class="container">
+
+            <div class="col-md-10">
+                <h1 style="text-align: center">Dodaj novu knjigu</h1><br>
+                
+                <form action="insert_book.php" method="post">
+                    <div class="form-group row">
+                        <label for="example-text-input" class="col-2 col-form-label">ID</label>
+                        <div class="col-10">
+                            <input class="form-control" type="text" id="ID" name="ID">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="example-text-input" class="col-2 col-form-label">Ime Knjige</label>
+                        <div class="col-10">
+                            <input class="form-control" type="text" id="Title" name="Title">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="example-text-input" class="col-2 col-form-label">Ime Autora</label>
+                        <div class="col-10">
+                            <input class="form-control" type="text" id="Author" name="Author">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="example-text-input" class="col-2 col-form-label">ISBN</label>
+                        <div class="col-10">
+                            <input class="form-control" type="text" id="ISBN" name="ISBN">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="example-text-input" class="col-2 col-form-label">Cena</label>
+                        <div class="col-10">
+                            <input class="form-control" type="text" id="Price" name="Price">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="example-text-input" class="col-2 col-form-label">Datum</label>
+                        <div class="col-10">
+                            <input class="form-control" type="text" id="Date" name="Date">
+                        </div>
+                    </div>
+                    <div style="text-align: right">
+                        <input type="submit" value="Dodaj novu knjigu" class="form-group">
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <form class="form-inline social-buttons iconSize">
+                        <a href="https://www.facebook.com/upss1988"><i class="fa fa-facebook"></i></a>
+
+                        <a href="https://www.instagram.com/betmen_licno"><i class="fa fa-instagram"></i></a>
+                        <a href="http://plus.google.com/u/0/108637013978671242467"><i class="fa fa-google-plus"></i></a>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <span class="copyrightParagraf">Copyright &copy; 2017 All Rights Reserved Marko Radulović.</span>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
